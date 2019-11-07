@@ -1,0 +1,133 @@
+*
+{
+    box-sizing: border-box;
+}
+
+body
+{
+	margin: 0;
+	background-color: black;
+	font-family: 'Caveat', cursive;
+}
+
+a
+{
+	text-decoration: none;
+}
+
+h1
+{
+	font-family: 'Vast Shadow', cursive;
+	color: white;
+	letter-spacing: 0.1em;
+	text-align: center;
+}
+
+hr
+{
+	border-color: #E8F6FF;
+}
+
+main
+{
+    margin: 0 auto;
+    padding: 1em;
+    width: 30%;
+    background-color: rgb(170, 5, 5);
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    box-shadow: 0 0 6px 2px white;
+    color: white;
+}
+
+label
+{
+	display: inline-block;
+	width: 20%;
+	font-size: 1.2em;
+	vertical-align: top;
+}
+
+.common-form
+{
+	margin: 2em auto;
+}
+
+.common-form fieldset
+{
+	border-radius: 6px;
+	border: 1px solid white;
+}
+
+.common-form fieldset legend
+{
+	font-family: 'Vast Shadow', cursive;
+    padding: 0 0.5em;
+    color: white;
+    font-size: 1.2em;
+}
+
+.common-form input
+{
+	background-color: #F0F0F0;
+	border: none;
+}
+
+.common-form input[type="text"]
+{
+	padding: 2px;
+	width: 60%;
+}
+
+.common-form input[type="submit"],a
+{
+	padding: 0.15em 0.5em;
+	background-color: white;
+	border: none;
+	border-radius: 4px;
+	box-shadow: 0 0 8px white;
+	color: red;
+	cursor: pointer;
+	font-weight: bold;
+	letter-spacing: 0.1em;
+	transition: background-color 0.25s, box-shadow 0.25s;
+}
+
+.common-form input[type="submit"]:hover,a:hover
+{
+	background-color: #fab7b2;
+	box-shadow: 0 0 8px #fab7b2;
+}
+
+.common-form ul
+{
+	list-style-type: none;
+}
+
+.common-form ul li
+{
+	margin-top: 0.75em;
+}
+
+input[type="checkbox"]
+{
+	cursor: pointer;
+	font-size: 0.875em;
+}
+
+.table-contact {
+	border-collapse: collapse;
+	margin: 0 auto 0.75em;
+	width: 100%;
+}
+
+.table-contact th
+{
+    text-transform: uppercase;
+}
+
+th, td {
+	border: 1px solid white;
+	padding: 5px 10px;
+	font-size: 1.2em;
+}
